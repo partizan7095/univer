@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>SpringLocalModels</ID>
+  <OriginalElement>module=univer</OriginalElement>
+  <nodes>
+    <node x="0.0" y="180.0">module=univer</node>
+    <node x="121.0" y="180.0">fileset=univer/UniverApplication</node>
+    <node x="324.0" y="180.0">com.example.univer.UniverApplication</node>
+    <node x="563.5" y="360.0">com.example.univer.service.StudentService</node>
+    <node x="559.5" y="180.0">com.example.univer.service.ScheduleService</node>
+    <node x="548.5" y="45.0">com.example.univer.controller.AudienceController</node>
+    <node x="527.0" y="135.0">com.example.univer.responce.RestApiExceptionHandler</node>
+    <node x="549.5" y="225.0">com.example.univer.controller.ScheduleController</node>
+    <node x="553.5" y="90.0">com.example.univer.controller.StudentController</node>
+    <node x="560.0" y="270.0">com.example.univer.controller.GroupController</node>
+    <node x="558.5" y="0.0">com.example.univer.service.AudienceService</node>
+    <node x="570.0" y="315.0">com.example.univer.service.GroupService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.univer.UniverApplication" target="com.example.univer.service.ScheduleService" relationship="">
+      <point x="76.5" y="-0.0" />
+      <point x="-71.5" y="-0.0" />
+    </edge>
+    <edge source="com.example.univer.UniverApplication" target="com.example.univer.responce.RestApiExceptionHandler" relationship="">
+      <point x="76.5" y="-0.0" />
+      <point x="502.0" y="192.5" />
+      <point x="502.0" y="147.5" />
+      <point x="-104.0" y="-0.0" />
+    </edge>
+    <edge source="com.example.univer.UniverApplication" target="com.example.univer.controller.StudentController" relationship="">
+      <point x="76.5" y="-0.0" />
+      <point x="502.0" y="192.5" />
+      <point x="502.0" y="102.5" />
+      <point x="-77.5" y="-0.0" />
+    </edge>
+    <edge source="com.example.univer.UniverApplication" target="com.example.univer.service.GroupService" relationship="">
+      <point x="76.5" y="-0.0" />
+      <point x="502.0" y="192.5" />
+      <point x="502.0" y="327.5" />
+      <point x="-61.0" y="-0.0" />
+    </edge>
+    <edge source="module=univer" target="fileset=univer/UniverApplication" relationship="">
+      <point x="35.5" y="-0.0" />
+      <point x="-76.5" y="-0.0" />
+    </edge>
+    <edge source="com.example.univer.UniverApplication" target="com.example.univer.service.StudentService" relationship="">
+      <point x="76.5" y="-0.0" />
+      <point x="502.0" y="192.5" />
+      <point x="502.0" y="372.5" />
+      <point x="-67.5" y="-0.0" />
+    </edge>
+    <edge source="com.example.univer.UniverApplication" target="com.example.univer.controller.ScheduleController" relationship="">
+      <point x="76.5" y="-0.0" />
+      <point x="502.0" y="192.5" />
+      <point x="502.0" y="237.5" />
+      <point x="-81.5" y="-0.0" />
+    </edge>
+    <edge source="com.example.univer.UniverApplication" target="com.example.univer.controller.AudienceController" relationship="">
+      <point x="76.5" y="-0.0" />
+      <point x="502.0" y="192.5" />
+      <point x="502.0" y="57.5" />
+      <point x="-82.5" y="-0.0" />
+    </edge>
+    <edge source="fileset=univer/UniverApplication" target="com.example.univer.UniverApplication" relationship="">
+      <point x="76.5" y="-0.0" />
+      <point x="-76.5" y="-0.0" />
+    </edge>
+    <edge source="com.example.univer.UniverApplication" target="com.example.univer.controller.GroupController" relationship="">
+      <point x="76.5" y="-0.0" />
+      <point x="502.0" y="192.5" />
+      <point x="502.0" y="282.5" />
+      <point x="-71.0" y="-0.0" />
+    </edge>
+    <edge source="com.example.univer.UniverApplication" target="com.example.univer.service.AudienceService" relationship="">
+      <point x="76.5" y="-0.0" />
+      <point x="502.0" y="192.5" />
+      <point x="502.0" y="12.5" />
+      <point x="-72.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="367.5" y="192.5" />
+  <SelectedNodes>
+    <node>module=univer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Show Borders</Category>
+    <Category>Show filesets as groups</Category>
+  </Categories>
+</Diagram>
+
